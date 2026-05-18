@@ -86,7 +86,11 @@ PRODUCT_COPY_FILES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay-service.xiaomi_sdm845
+    vendor.lineage.livedisplay-service.dipper
+
+# Dipper AntiFlicker
+PRODUCT_PACKAGES += \
+    DipperAntiFlicker
 
 # NFC
 PRODUCT_PACKAGES += \

@@ -1,0 +1,9 @@
+on boot
+    chown system system /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm_status
+
+service vendor.livedisplay-hal-dipper /vendor/bin/hw/vendor.lineage.livedisplay-service.dipper
+    class hal
+    interface aidl vendor.lineage.livedisplay.IAntiFlicker/default
+    interface aidl vendor.lineage.livedisplay.ISunlightEnhancement/default
+    user system
+    group system

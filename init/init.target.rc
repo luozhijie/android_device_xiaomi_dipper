@@ -63,10 +63,10 @@ service glgps /vendor/bin/glgps -c /vendor/etc/gpsconfig.xml
     group system inet sdcard_rw wakelock
     ioprio rt 0
 
-service ignss_2_0 /vendor/bin/ignss_2_0
-    class late_start
+service ignss_2_0 /vendor/bin/hw/android.hardware.gnss@2.0-service.dipper-virtual
+    class hal
     user system
-    group system inet sdcard_rw wakelock
+    group system
 
 service lhd /vendor/bin/lhd /vendor/etc/lhd.conf
     class late_start

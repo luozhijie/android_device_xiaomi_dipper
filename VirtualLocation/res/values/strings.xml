@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The LineageOS Project
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Virtual location</string>
+    <string name="virtual_location_summary">Override GNSS fixes with configured coordinates</string>
+    <string name="virtual_location_enable">Enable virtual location</string>
+    <string name="virtual_location_latitude">Latitude</string>
+    <string name="virtual_location_longitude">Longitude</string>
+    <string name="virtual_location_accuracy">Accuracy meters</string>
+    <string name="virtual_location_altitude">Altitude meters</string>
+    <string name="virtual_location_speed">Speed meters per second</string>
+    <string name="virtual_location_bearing">Bearing degrees</string>
+    <string name="virtual_location_interval">Update interval milliseconds</string>
+    <string name="virtual_location_invalid_value">Invalid value</string>
+</resources>

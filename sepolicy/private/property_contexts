@@ -1,0 +1,2 @@
+# Virtual GNSS
+persist.sys.virtual_gnss.     u:object_r:virtual_gnss_prop:s0

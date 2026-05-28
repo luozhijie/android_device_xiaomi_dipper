@@ -1,0 +1,1 @@
+get_prop(hal_gnss_default, virtual_gnss_prop)

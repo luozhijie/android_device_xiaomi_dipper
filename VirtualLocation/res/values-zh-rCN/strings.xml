@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The LineageOS Project
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">虚拟定位</string>
+    <string name="virtual_location_summary">使用配置的坐标覆盖 GNSS 定位结果</string>
+    <string name="virtual_location_enable">启用虚拟定位</string>
+    <string name="virtual_location_latitude">纬度</string>
+    <string name="virtual_location_longitude">经度</string>
+    <string name="virtual_location_accuracy">精度（米）</string>
+    <string name="virtual_location_altitude">海拔（米）</string>
+    <string name="virtual_location_speed">速度（米/秒）</string>
+    <string name="virtual_location_bearing">方向（度）</string>
+    <string name="virtual_location_interval">上报间隔（毫秒）</string>
+    <string name="virtual_location_invalid_value">数值无效</string>
+</resources>

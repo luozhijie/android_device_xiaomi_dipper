@@ -72,6 +72,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf
 
 PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.0-service.dipper-virtual \
+    DipperVirtualLocation \
     gps.conf_symlink
 
 # Input

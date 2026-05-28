@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The LineageOS Project
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="virtual_location_enabled"
+        android:title="@string/virtual_location_enable" />
+
+    <EditTextPreference
+        android:key="virtual_location_latitude"
+        android:title="@string/virtual_location_latitude" />
+
+    <EditTextPreference
+        android:key="virtual_location_longitude"
+        android:title="@string/virtual_location_longitude" />
+
+    <EditTextPreference
+        android:key="virtual_location_accuracy"
+        android:title="@string/virtual_location_accuracy" />
+
+    <EditTextPreference
+        android:key="virtual_location_altitude"
+        android:title="@string/virtual_location_altitude" />
+
+    <EditTextPreference
+        android:key="virtual_location_speed"
+        android:title="@string/virtual_location_speed" />
+
+    <EditTextPreference
+        android:key="virtual_location_bearing"
+        android:title="@string/virtual_location_bearing" />
+
+    <EditTextPreference
+        android:key="virtual_location_interval"
+        android:title="@string/virtual_location_interval" />
+
+</PreferenceScreen>

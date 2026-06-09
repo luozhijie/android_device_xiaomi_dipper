@@ -6,3 +6,5 @@ persist.camera.sat.fallback.lux.d=20
 
 # Display
 ro.surface_flinger.has_wide_color_display=true
+persist.sys.sf.native_mode=0
+persist.sys.sf.color_mode=9

@@ -36,7 +36,7 @@ public final class AntiFlickerColorService extends Service {
     private static final String TAG = "AntiFlickerColorService";
 
     private static final int SCREEN_BRIGHTNESS_DC_THRESHOLD = 40;
-    private static final float MIN_COLOR_SCALE = 0.10f;
+    private static final float MIN_COLOR_SCALE = 0.05f;
     private static final long FAST_POLL_INTERVAL_MS = 10;
     private static final long IDLE_POLL_INTERVAL_MS = 500;
     private static final long IDLE_TIMEOUT_MS = 2000;

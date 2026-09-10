@@ -6,6 +6,8 @@
 
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
+TARGET_USES_MINI_GAPPS := true
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
